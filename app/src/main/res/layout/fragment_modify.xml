@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyFragment">
+
+    <ImageView
+        android:id="@+id/imageView_modify"
+        android:layout_width="411dp"
+        android:layout_height="400dp"
+        android:contentDescription="none"
+        android:scaleType="centerCrop"
+        android:src="@drawable/modify"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.589"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_conversion_absoluteHeight="400dp"
+        tools:layout_conversion_absoluteWidth="650dp" />
+
+    <ImageView
+        android:id="@+id/imageView_white_modify"
+        android:layout_width="563dp"
+        android:layout_height="180dp"
+        android:contentDescription="none"
+        android:scaleType="fitXY"
+        android:src="@drawable/white_shadow1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43" />
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#0C323643"
+        android:duplicateParentState="true"
+        android:singleLine="true"
+        android:stateListAnimator="@null"
+        android:text="返回"
+        android:textColor="#7F323642"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineThird"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"/>
+
+    <Button
+        android:id="@+id/button_password"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#FF323643"
+        android:duplicateParentState="true"
+        android:singleLine="true"
+        android:stateListAnimator="@null"
+        android:text="密码"
+        android:textColor="#FFFFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineThird"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"  />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineThird"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <EditText
+        android:id="@+id/textPasswordOld"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="旧密码"
+        android:inputType="textPassword"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706"
+        tools:layout_conversion_absoluteHeight="50dp"
+        tools:layout_conversion_absoluteWidth="330dp" />
+
+    <EditText
+        android:id="@+id/textPasswordNew"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="新密码"
+        android:inputType="textPassword"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807"
+        tools:layout_conversion_absoluteHeight="50dp"
+        tools:layout_conversion_absoluteWidth="330dp" />
+
+    <EditText
+        android:id="@+id/textPersonNameModify"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_edittext_background"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="用户名"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+        tools:layout_conversion_absoluteHeight="50dp"
+        tools:layout_conversion_absoluteWidth="330dp" />
+
+    <Button
+        android:id="@+id/button_modify"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#2A8379"
+        android:stateListAnimator="@null"
+        android:text="确认"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:layout_conversion_absoluteHeight="64dp"
+        tools:layout_conversion_absoluteWidth="330dp" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/spin_kit_third"
+        style="@style/SpinKitView.Large.Circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:SpinKit_Color="#FF2A8379"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

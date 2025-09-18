@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">月亮很亮</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">欢迎</string>
+    <string name="second_fragment_label">登录</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="password_modify_nav"><u>修改密码</u></string>
+
+    <string name="page2_button2">Click</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Welcome to @string/app_name. Arg: %1$s</string>
+    <string name="title_activity_letter_fragment">LetterFragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>
