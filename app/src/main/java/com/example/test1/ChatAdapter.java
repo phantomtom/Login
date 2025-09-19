@@ -8,8 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-import com.google.type.Date;
-
+import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.util.List;
 import java.util.Locale;
